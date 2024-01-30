@@ -7,5 +7,6 @@ namespace Shop.DL
         public void Add(Product product);
         public void Update(Product product);
         public void Delete(Product product);
+        void AddProduct(Product newProduct);
     }
 }
